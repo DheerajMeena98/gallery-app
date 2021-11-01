@@ -1,0 +1,43 @@
+.gallery-bcg-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.current-bcg-image {
+}
+
+.gallery-main-heading {
+  font-size: 22px;
+}
+
+.gallery-title-text {
+  font-size: 18px;
+  color: #64748b;
+}
+
+.select-image-options-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .select-image-options-container {
+    flex-wrap: nowrap;
+    height: 16%;
+  }
+
+  .gallery-bcg-container {
+    height: 100vh;
+    padding: 15px;
+  }
+
+  .current-bcg-image {
+    height: 65%;
+    width: 65%;
+  }
+}
